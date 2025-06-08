@@ -1,0 +1,99 @@
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iris CMS</title>
+  <style>
+    body {
+      font-family: monospace;
+      background-color: #efdbbf;
+      padding: 20px;
+    }
+    h1 {
+      color: #68191f;
+      font-size: 37px;
+    }
+    h2 {
+        color :#68191f
+    }
+    p {
+        color :#68191f;
+        font-weight: bold;
+        font-size: 22px;
+    }
+     nav {
+      background-color: #ac3030;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #121211;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      display: inline-block;
+      position: relative;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    nav a:hover {
+      background-color: #68191f;
+      animation: bounce 0.4s ease;
+    }
+
+  </style>
+</head>
+<body>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="ex.html">Examples</a>
+    <a href="prices.html">Prices</a>
+    <a href="rules.html">Rules</a>
+    </nav>
+  <h1>Prices / ราคา !</h1>
+  <h2>[Sample Text]</h2>
+  
+  <div style="display: flex; flex-direction: column; align-items: center; gap: small;">
+
+  <div style="display: flex; gap: 500px;">
+  <p>Sketch :</p>
+  <p>Flat Color :</p>
+  <p>Full Color :</p>
+  </div>
+
+  <div style="display: flex; gap: 500px;">
+  <p>Headshot  20THB</p>
+  <p>Headshot  40THB</p>
+  <p>Headshot  50THB</p>
+  </div>
+  
+  <div style="display: flex; gap: 500px;">
+  <p>Half Bod  40THB</p>
+  <p>Half Bod  60THB</p>
+  <p>Half Bod  80THB</p>
+  </div>
+
+  <div style="display: flex; gap: 500px;">
+  <p>Full Bod  60THB</p>
+  <p>Full Bod  80THB</p>
+  <p>Full Bod  100THB</p>
+  </div>
+  
+  </div>
+
+  <img src = "../images/Banner3.png" width = "1450" height ="200">
+
+</body>
+</html>
